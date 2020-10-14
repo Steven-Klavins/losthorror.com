@@ -11,7 +11,9 @@
         <div class="navLinks">
             <a class="active" href="#home">Home</a>
             <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="#contact">Movie Reviews</a>
+            <a href="#practicaleffects">Practical Effects</a>
+            <a href="#thearchive">The Archive</a>
+
             </div>
     </div>
