@@ -11,26 +11,21 @@
 
         <div class="navLinks">
             <a class="active" href="<?php echo site_url() ?>">Home</a>
-            <a href="#news">News</a>
+            <a href="<?php echo site_url('/news') ?>">News</a>
             <a href="#contact">Movie Reviews</a>
             <a href="#practicaleffects">Practical Effects</a>
             <a href="#thearchive">The Archive</a>
-            </div>
-            <div >
-                <label class="burger" for = "toggle">&#9776;</label>
-                <input type="checkbox" id ="toggle"/>
-                <span class="sideMenu">
+        </div>
+        <div>
+            <label class="burger" for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <span class="sideMenu">
                 <a href="<?php echo site_url() ?>">Home</a>
-                    <a href="#">News</a>
-                    <a href="#">Movie Reviews</a>
-                    <a href="#">Practical Effects</a>
-                    <a href="#">The Archive</a>
-                    </span>
+                <a href="<?php echo site_url('/news') ?>">News</a>
+                <a href="#">Movie Reviews</a>
+                <a href="#">Practical Effects</a>
+                <a href="#">The Archive</a>
+            </span>
 
         </div>
-
-
-
-
     </div>
-
