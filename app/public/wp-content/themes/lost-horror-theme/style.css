@@ -16,7 +16,12 @@ Version: 1.0
 
   @font-face {
     font-family: socialFont;
-    src: url(./css/fonts/SocialLogos.ttf);
+    src: url(./css/fonts/Socialico.ttf);
+  }
+
+  @font-face {
+    font-family: socialFont2;
+    src: url(./css/fonts/SocialicoPlus.ttf);
   }
 
 a,
@@ -48,21 +53,27 @@ body {
     position: fixed;
     bottom: 0;
     text-align: center;
-    padding-top:  10px;
+    padding-top:  6px;
     font-family: readingFont;
     
 }
 
 .footerLogos {
-    font-family: socialFont;
-    font-size: 24px;
-    padding-top: 10px;
+    font-size: 48px;
     float: right;
-    padding-right: 12px;
+    padding-right: 24px;
 }
 .footerLogos span {
     padding-left: 6px;
     padding-right: 6px;
+}
+
+.socialIcons1 {
+    font-family: socialFont;
+}
+
+.socialIcons2 {
+    font-family: socialFont2;
 }
 
 h1 {
