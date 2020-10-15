@@ -10,7 +10,7 @@
         <h1><span>Lost</span>Horror</h1>
 
         <div class="navLinks">
-            <a class="active" href="#home">Home</a>
+            <a class="active" href="<?php echo site_url() ?>">Home</a>
             <a href="#news">News</a>
             <a href="#contact">Movie Reviews</a>
             <a href="#practicaleffects">Practical Effects</a>
@@ -20,7 +20,7 @@
                 <label class="burger" for = "toggle">&#9776;</label>
                 <input type="checkbox" id ="toggle"/>
                 <span class="sideMenu">
-                <a href="#">Home</a>
+                <a href="<?php echo site_url() ?>">Home</a>
                     <a href="#">News</a>
                     <a href="#">Movie Reviews</a>
                     <a href="#">Practical Effects</a>
