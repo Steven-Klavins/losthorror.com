@@ -9,6 +9,16 @@ Version: 1.0
   src: url(./css/fonts/Eordeoghlakat.ttf);
 }
 
+@font-face {
+    font-family: readingFont;
+    src: url(./css/fonts/CrimsonText-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: socialFont;
+    src: url(./css/fonts/SocialLogos.ttf);
+  }
+
 a,
 a:visited,
 a:hover,
@@ -28,6 +38,31 @@ body {
   position: relative;
   padding-top: 18px;
   padding-right: 30px;
+}
+
+.footer {
+    background-color: black;
+    min-height: 48px;
+    width: 100%;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding-top:  10px;
+    font-family: readingFont;
+    
+}
+
+.footerLogos {
+    font-family: socialFont;
+    font-size: 24px;
+    padding-top: 10px;
+    float: right;
+    padding-right: 12px;
+}
+.footerLogos span {
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 h1 {
@@ -73,7 +108,7 @@ label {
 }
 
 .sideMenu {
-  padding-top: 120px;
+  padding-top: 101px;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -122,3 +157,5 @@ ul {
     display: none;
   }
 }
+
+
