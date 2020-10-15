@@ -33,6 +33,13 @@ a:active {
 
 }
 
+*{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -107,7 +114,7 @@ h2 {
 
 .textFormat {
   text-align: center;
-  color: aqua;
+  
   
 }
 
@@ -156,7 +163,7 @@ label {
 .postCard{
   width: 60%;
   margin: 0 auto;
-  height: 228px;
+  height: 226px;
   border: 1px solid black;
   margin-top: 30px;
 }
@@ -169,6 +176,10 @@ label {
   padding: 12px;
   color: rgb(255, 255, 255);
   bottom: 0; 
+}
+
+.postCard a:hover{
+  color: rgb(150, 8, 8);
 }
 
 ul {
