@@ -96,6 +96,10 @@ h2 {
   font-size: 48px;
 }
 
+ a:hover {
+  color: rgb(150, 8, 8);
+}
+
 #toggle {
   display: none;
 }
