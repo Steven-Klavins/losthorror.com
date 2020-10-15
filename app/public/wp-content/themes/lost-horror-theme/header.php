@@ -13,7 +13,7 @@
             <a class="active" href="<?php echo site_url() ?>">Home</a>
             <a href="<?php echo site_url('/news') ?>">News</a>
             <a href="<?php echo site_url('/movie-reviews') ?>">Movie Reviews</a>
-            <a href="#practicaleffects">Practical Effects</a>
+            <a href="<?php echo site_url('/practical-effects') ?>">Practical Effects</a>
             <a href="#thearchive">The Archive</a>
         </div>
         <div>
@@ -23,7 +23,7 @@
                 <a href="<?php echo site_url() ?>">Home</a>
                 <a href="<?php echo site_url('/news') ?>">News</a>
                 <a href="<?php echo site_url('/movie-reviews') ?>">Movie Reviews</a>
-                <a href="#">Practical Effects</a>
+                <a href="<?php echo site_url('/practical-effects') ?>">Practical Effects</a>
                 <a href="#">The Archive</a>
             </span>
 
