@@ -1,9 +1,9 @@
 <div class="footer">
 <div class="footerLogos">
-    <span><a href="instagram.com">J</a></span>
-    <span><a href="twitter.com">Q</a></span>
-    <span><a href="facebook.com">G</a></span>
-    <span><a href="youtube.com">W</a></span>
+<span class="socialIcons1"><a href="twitter.com">L</a></span>
+    <span class="socialIcons2"><a href="instagram.com">I</a></span>
+    <span class="socialIcons1"><a href="facebook.com">F</a></span>
+    <span class="socialIcons1"><a href="youtube.com">X</a></span>
 </div>
 </div>
 
