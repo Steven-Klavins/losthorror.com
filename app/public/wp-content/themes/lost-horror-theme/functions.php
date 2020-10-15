@@ -13,3 +13,5 @@ function page_titles()
 }
 
 add_action('after_setup_theme', 'page_titles');
+
+add_theme_support('post-thumbnails');
