@@ -1,0 +1,12 @@
+[15-Oct-2020 10:56:46 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php on line 10
+[15-Oct-2020 10:56:46 UTC] PHP Stack trace:
+[15-Oct-2020 10:56:46 UTC] PHP   1. {main}() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:0
+[15-Oct-2020 10:56:46 UTC] PHP   2. require() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:17
+[15-Oct-2020 10:56:46 UTC] PHP   3. require_once() /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php:19
+[15-Oct-2020 10:56:46 UTC] PHP   4. include() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php:106
+[15-Oct-2020 10:57:13 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php on line 10
+[15-Oct-2020 10:57:13 UTC] PHP Stack trace:
+[15-Oct-2020 10:57:13 UTC] PHP   1. {main}() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:0
+[15-Oct-2020 10:57:13 UTC] PHP   2. require() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:17
+[15-Oct-2020 10:57:13 UTC] PHP   3. require_once() /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php:19
+[15-Oct-2020 10:57:13 UTC] PHP   4. include() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php:106
