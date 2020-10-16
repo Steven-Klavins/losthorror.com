@@ -168,6 +168,21 @@ label {
   margin-top: 30px;
 }
 
+.postCard h2  {
+  padding-top: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
+  
+}
+
+.postCard p {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+  padding: 12px;
+}
+
 .postCard a {
   float: right;
   font-family: titleFont;
@@ -207,6 +222,16 @@ p {
   }
   .sideMenu {
     display: none;
+  }
+  .postCard p {
+    display: none;
+  }
+  .postCard h2 {
+    font-size: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 12px; 
+    margin-bottom: 12px;
   }
 }
 
