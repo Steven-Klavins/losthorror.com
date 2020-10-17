@@ -58,7 +58,7 @@ body {
     min-height: 48px;
     width: 100%;
     color: aliceblue;
-    position: fixed;
+    padding-bottom: 24px;
     bottom: 0;
     text-align: center;
     padding-top:  6px;
@@ -102,6 +102,12 @@ h2 {
   text-align: center;
   font-family: titleFont;
   font-size: 48px;
+}
+
+h3 {
+  text-align: center;
+  font-family: readingFont;
+  font-size: 30px;
 }
 
  a:hover {
@@ -166,6 +172,7 @@ label {
   height: 226px;
   border: 1px solid black;
   margin-top: 30px;
+  
 }
 
 .postCard h2  {
@@ -174,6 +181,10 @@ label {
   color: rgb(255, 255, 255);
   margin-bottom: 0;
   
+}
+
+.scroll {
+  margin-bottom: 120px;
 }
 
 .postCard p {
@@ -230,8 +241,8 @@ p {
     font-size: 36px;
     padding-top: 12px;
     padding-bottom: 12px;
-    margin-top: 12px; 
-    margin-bottom: 12px;
+    margin-top: 0; 
+    margin-bottom: 48px;
   }
 }
 
