@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes();?>>
+
 <head>
     <?php wp_head();?>
 </head>
+<meta charset="<?php bloginfo('charset')?>">
 
 <body <?php body_class();?>>
     <div class="navHeader">
