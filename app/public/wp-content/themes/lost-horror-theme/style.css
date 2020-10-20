@@ -140,13 +140,14 @@ label {
   color: #f2f2f2;
   font-family: titleFont;
   font-size: 30px;
-
   padding-top: 36px;
   padding-bottom: 30px;
 }
-.navLinks a {
-  padding-left: 15px;
-  padding-right: 15px;
+.navLinks ul li {
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 300px;
+  display: inline-block;
 }
 
 .sideMenu {
