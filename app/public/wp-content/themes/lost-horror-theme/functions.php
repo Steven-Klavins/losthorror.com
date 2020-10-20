@@ -10,6 +10,7 @@ add_action('wp_enqueue_scripts', 'lost_horror_files');
 function page_titles()
 {
     add_theme_support('title-tag');
+    register_nav_menu('headerMenuLocation', 'Header Menu Location');
 }
 
 add_action('after_setup_theme', 'page_titles');
