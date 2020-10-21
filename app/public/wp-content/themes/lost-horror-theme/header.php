@@ -11,7 +11,6 @@
         <h1><span>Lost</span>Horror</h1>
 
         <div class="navLinks">
-
             <?php wp_nav_menu(array('theme_location' => 'headerMenuLocation'));?>
         </div>
         <div>
