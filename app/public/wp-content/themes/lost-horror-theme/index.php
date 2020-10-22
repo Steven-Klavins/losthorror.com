@@ -2,9 +2,8 @@
 get_header();
 ?>
 <div class="scroll">
-<h2>Welcome!</h2>
-<h3>Welcome to lost horror, home of obscure horror films from the past! </h3>
-<h3>Latest Reviews </h3>
+
+<h2>Latest Reviews </h2>
 <?php
 while (have_posts()) {
     ?>
@@ -21,8 +20,6 @@ while (have_posts()) {
 }
 
 ?>
-<h3>Latest News</h3>
-<h3>Featured Posts</h3>
 </div>
 <?php
 
