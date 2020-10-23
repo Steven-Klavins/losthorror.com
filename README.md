@@ -17,6 +17,8 @@ losthorror.com is a WordPress site I'm currently building to blog and document h
 * Index Styling 
 * Parent Pages 
 * CSS/Feature configuration in the functions file 
+* Page pagination for custom categories
+* Latest reviews 
 
 ## Todo
 
