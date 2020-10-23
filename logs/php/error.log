@@ -10,3 +10,68 @@
 [15-Oct-2020 10:57:13 UTC] PHP   2. require() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:17
 [15-Oct-2020 10:57:13 UTC] PHP   3. require_once() /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php:19
 [15-Oct-2020 10:57:13 UTC] PHP   4. include() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php:106
+[23-Oct-2020 22:19:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php on line 39
+[23-Oct-2020 23:01:10 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/taxonomy.php on line 1529
+[23-Oct-2020 23:01:10 UTC] PHP Stack trace:
+[23-Oct-2020 23:01:10 UTC] PHP   1. {main}() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:0
+[23-Oct-2020 23:01:10 UTC] PHP   2. require() /Users/macbookpro/Local Sites/losthorror/app/public/index.php:17
+[23-Oct-2020 23:01:10 UTC] PHP   3. require_once() /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php:19
+[23-Oct-2020 23:01:10 UTC] PHP   4. include() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php:106
+[23-Oct-2020 23:01:10 UTC] PHP   5. has_category() /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php:10
+[23-Oct-2020 23:01:10 UTC] PHP   6. has_term() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/category-template.php:1467
+[23-Oct-2020 23:01:10 UTC] PHP   7. is_object_in_term() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/category-template.php:1521
+[23-Oct-2020 23:01:10 UTC] PHP   8. get_object_term_cache() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/taxonomy.php:4540
+[23-Oct-2020 23:01:10 UTC] PHP   9. get_term() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/taxonomy.php:3464
+[23-Oct-2020 23:01:10 UTC] PHP  10. WP_Term::get_instance() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/taxonomy.php:874
+[23-Oct-2020 23:01:10 UTC] PHP  11. WP_Term->filter() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-term.php:184
+[23-Oct-2020 23:01:10 UTC] PHP  12. sanitize_term() /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-term.php:210
+[23-Oct-2020 23:20:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php:3284
+Stack trace:
+#0 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php(3313): WP_Query->next_post()
+#1 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/query.php(971): WP_Query->the_post()
+#2 /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php(16): the_post()
+#3 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php(106): include('/Users/macbookp...')
+#4 /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php(19): require_once('/Users/macbookp...')
+#5 /Users/macbookpro/Local Sites/losthorror/app/public/index.php(17): require('/Users/macbookp...')
+#6 {main}
+  thrown in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php on line 3284
+[23-Oct-2020 23:21:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php:3284
+Stack trace:
+#0 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php(3313): WP_Query->next_post()
+#1 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/query.php(971): WP_Query->the_post()
+#2 /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php(16): the_post()
+#3 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php(106): include('/Users/macbookp...')
+#4 /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php(19): require_once('/Users/macbookp...')
+#5 /Users/macbookpro/Local Sites/losthorror/app/public/index.php(17): require('/Users/macbookp...')
+#6 {main}
+  thrown in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php on line 3284
+[23-Oct-2020 23:21:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php:3284
+Stack trace:
+#0 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php(3313): WP_Query->next_post()
+#1 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/query.php(971): WP_Query->the_post()
+#2 /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php(16): the_post()
+#3 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php(106): include('/Users/macbookp...')
+#4 /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php(19): require_once('/Users/macbookp...')
+#5 /Users/macbookpro/Local Sites/losthorror/app/public/index.php(17): require('/Users/macbookp...')
+#6 {main}
+  thrown in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php on line 3284
+[23-Oct-2020 23:21:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php:3284
+Stack trace:
+#0 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php(3313): WP_Query->next_post()
+#1 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/query.php(971): WP_Query->the_post()
+#2 /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php(16): the_post()
+#3 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php(106): include('/Users/macbookp...')
+#4 /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php(19): require_once('/Users/macbookp...')
+#5 /Users/macbookpro/Local Sites/losthorror/app/public/index.php(17): require('/Users/macbookp...')
+#6 {main}
+  thrown in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php on line 3284
+[23-Oct-2020 23:21:43 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php:3284
+Stack trace:
+#0 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php(3313): WP_Query->next_post()
+#1 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/query.php(971): WP_Query->the_post()
+#2 /Users/macbookpro/Local Sites/losthorror/app/public/wp-content/themes/lost-horror-theme/index.php(16): the_post()
+#3 /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/template-loader.php(106): include('/Users/macbookp...')
+#4 /Users/macbookpro/Local Sites/losthorror/app/public/wp-blog-header.php(19): require_once('/Users/macbookp...')
+#5 /Users/macbookpro/Local Sites/losthorror/app/public/index.php(17): require('/Users/macbookp...')
+#6 {main}
+  thrown in /Users/macbookpro/Local Sites/losthorror/app/public/wp-includes/class-wp-query.php on line 3284
