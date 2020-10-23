@@ -5,8 +5,15 @@ get_header();
 
 <h2>Latest Reviews </h2>
 <?php
-while (have_posts()) {
-    ?>
+$the_query = query_posts(array(
+    'category_name' => 'movie-reviews', 'posts_per_page' => -1,
+));
+
+$postslist = get_posts($the_query);
+
+foreach ($postslist as $post) {
+    if (in_category('movie-reviews')) {
+        ?>
     <?php the_post();?>
     <?php $thumb = get_the_post_thumbnail_url(get_the_ID(), 'full');?>
     <div class="postCard" style="background-image: url('<?php echo $thumb; ?>') ">
@@ -16,6 +23,7 @@ while (have_posts()) {
         <a href="<?php the_permalink();?>">Read more...</a>
     </div>
 <?php
+}
 
 }
 
@@ -26,3 +34,5 @@ while (have_posts()) {
 get_footer();
 
 ?>
+
+
