@@ -158,6 +158,13 @@ label {
   display: none;
 }
 
+.pagination {
+  text-align: center;
+  padding: 12px;
+  font-family: titleFont;
+  font-size: 30px;
+}
+
 .sideMenu a {
   margin: 0, 10;
   line-height: 70px;
