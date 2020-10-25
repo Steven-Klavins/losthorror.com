@@ -26,7 +26,7 @@ foreach ($postslist as $post) {
     <div class="postCard" style="background-image: url('<?php echo $thumb; ?>') ">
 
         <h2><?php the_title()?></h2>
-        <?php the_content();?>
+        <?php the_excerpt()?>
         <a href="<?php the_permalink();?>">Read more...</a>
     </div>
 <?php
