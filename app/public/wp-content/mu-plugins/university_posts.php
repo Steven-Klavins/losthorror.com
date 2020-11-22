@@ -3,7 +3,7 @@
 
 function post_types()
 {
-    register_post_type('event', array(
+    register_post_type('movie review', array(
         'public' => true,
         'labels' => array(
             'name' => 'Movie Reviews',
@@ -13,6 +13,18 @@ function post_types()
             'singular_name' => 'Movie Review',
         ),
         'menu_icon' => 'dashicons-welcome-write-blog',
+    ));
+
+    register_post_type('news post', array(
+        'public' => true,
+        'labels' => array(
+            'name' => 'News',
+            'add_new_item' => "Add A News Post",
+            'edit_item' => "Edit News Post",
+            'all_items' => 'All News Posts',
+            'singular_name' => 'News',
+        ),
+        'menu_icon' => 'dashicons-admin-site-alt2',
     ));
 }
 
