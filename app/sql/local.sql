@@ -134,7 +134,7 @@ CREATE TABLE `wp_options` (
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
-) ENGINE=InnoDB AUTO_INCREMENT=452 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=453 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -274,7 +274,7 @@ INSERT INTO `wp_options` VALUES (300,'_site_transient_timeout_browser_c5b915e8b1
 INSERT INTO `wp_options` VALUES (301,'_site_transient_browser_c5b915e8b1877b16400f98bb17ab1fbd','a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"84.0.4147.125\";s:8:\"platform\";s:9:\"Macintosh\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}','no');
 INSERT INTO `wp_options` VALUES (315,'nav_menu_options','a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}','yes');
 INSERT INTO `wp_options` VALUES (375,'category_children','a:0:{}','yes');
-INSERT INTO `wp_options` VALUES (426,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:65:\"https://downloads.wordpress.org/release/en_GB/wordpress-5.5.1.zip\";s:6:\"locale\";s:5:\"en_GB\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:65:\"https://downloads.wordpress.org/release/en_GB/wordpress-5.5.1.zip\";s:10:\"no_content\";s:0:\"\";s:11:\"new_bundled\";s:0:\"\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.5.1\";s:7:\"version\";s:5:\"5.5.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.3\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1603587280;s:15:\"version_checked\";s:5:\"5.5.1\";s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:4:\"core\";s:4:\"slug\";s:7:\"default\";s:8:\"language\";s:5:\"en_GB\";s:7:\"version\";s:5:\"5.5.1\";s:7:\"updated\";s:19:\"2020-10-22 07:23:21\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/5.5.1/en_GB.zip\";s:10:\"autoupdate\";b:1;}}}','no');
+INSERT INTO `wp_options` VALUES (426,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:65:\"https://downloads.wordpress.org/release/en_GB/wordpress-5.5.1.zip\";s:6:\"locale\";s:5:\"en_GB\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:65:\"https://downloads.wordpress.org/release/en_GB/wordpress-5.5.1.zip\";s:10:\"no_content\";s:0:\"\";s:11:\"new_bundled\";s:0:\"\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.5.1\";s:7:\"version\";s:5:\"5.5.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.3\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1606073851;s:15:\"version_checked\";s:5:\"5.5.1\";s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:4:\"core\";s:4:\"slug\";s:7:\"default\";s:8:\"language\";s:5:\"en_GB\";s:7:\"version\";s:5:\"5.5.1\";s:7:\"updated\";s:19:\"2020-10-22 07:23:21\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/5.5.1/en_GB.zip\";s:10:\"autoupdate\";b:1;}}}','no');
 INSERT INTO `wp_options` VALUES (427,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1603585570;s:7:\"checked\";a:1:{s:17:\"lost-horror-theme\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}','no');
 INSERT INTO `wp_options` VALUES (428,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1603585569;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:0:{}}','no');
 INSERT INTO `wp_options` VALUES (432,'_site_transient_timeout_theme_roots','1603587365','no');
@@ -291,6 +291,7 @@ INSERT INTO `wp_options` VALUES (442,'_transient_timeout_feed_mod_d117b5738fbd35
 INSERT INTO `wp_options` VALUES (443,'_transient_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9','1603585846','no');
 INSERT INTO `wp_options` VALUES (444,'_transient_timeout_dash_v2_5f25301ca0145abac6dfc3a0899dc43b','1603629046','no');
 INSERT INTO `wp_options` VALUES (445,'_transient_dash_v2_5f25301ca0145abac6dfc3a0899dc43b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://en-gb.wordpress.org/2020/09/29/international-translation-day-celebration/\'>International Translation Day Celebration</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/yext-launches-a-wordpress-plugin-to-connect-to-its-answers-platform?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=yext-launches-a-wordpress-plugin-to-connect-to-its-answers-platform\'>WPTavern: Yext Launches a WordPress Plugin To Connect To Its Answers Platform</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/gutenberg-9-2-adds-video-tracks-improvements-to-columns-and-cover-blocks?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gutenberg-9-2-adds-video-tracks-improvements-to-columns-and-cover-blocks\'>WPTavern: Gutenberg 9.2 Adds Video Tracks, Improvements to Columns and Cover Blocks</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/eslint-maintainers-share-challenges-of-funding-open-source-utilities-through-sponsorship?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=eslint-maintainers-share-challenges-of-funding-open-source-utilities-through-sponsorship\'>WPTavern: ESLint Maintainers Share Challenges of Funding Open Source Utilities through Sponsorship</a></li></ul></div>','no');
+INSERT INTO `wp_options` VALUES (452,'_transient_doing_cron','1606073849.8949820995330810546875','yes');
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -783,4 +784,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-25 19:45:38
+-- Dump completed on 2020-11-22 19:37:32
