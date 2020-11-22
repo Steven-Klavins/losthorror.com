@@ -26,6 +26,21 @@ function post_types()
         ),
         'menu_icon' => 'dashicons-admin-site-alt2',
     ));
+
+    register_post_type('Practical Effects', array(
+        'public' => true,
+        'labels' => array(
+            'name' => 'Practical Effects',
+            'add_new_item' => "Add A Practical Effects Post",
+            'edit_item' => "Edit Practical Effects Post",
+            'all_items' => 'All Practical Effects Posts',
+            'singular_name' => 'Practical Effects',
+        ),
+        'menu_icon' => 'dashicons-art',
+    ));
+
+
+    
 }
 
 add_action('init', 'post_types');
