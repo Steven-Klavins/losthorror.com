@@ -39,6 +39,18 @@ function post_types()
         'menu_icon' => 'dashicons-art',
     ));
 
+    register_post_type('Archive', array(
+        'public' => true,
+        'labels' => array(
+            'name' => 'Archive',
+            'add_new_item' => "Add An Archive Item",
+            'edit_item' => "Edit Archive Item",
+            'all_items' => 'All Archive Items',
+            'singular_name' => 'Archive Item',
+        ),
+        'menu_icon' => 'dashicons-open-folder',
+    ));
+
 
     
 }
