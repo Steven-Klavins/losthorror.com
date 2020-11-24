@@ -26,3 +26,4 @@ losthorror.com is a WordPress site I'm currently building to blog and document h
 * Add Twitter feed to Index Page 
 * Add Styling to reviews child pages 
 * Enable fields for social links
+* Build archive page
