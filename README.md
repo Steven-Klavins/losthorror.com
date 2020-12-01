@@ -12,7 +12,7 @@ losthorror.com is a WordPress site I'm currently building to blog and document h
 * A responsive footer with social links 
 * Basic Styling for single pages 
 * Custom post themes 
-* Custom past banners 
+* Custom post banners 
 * Custom Backgrounds 
 * Index Styling 
 * Parent Pages 
